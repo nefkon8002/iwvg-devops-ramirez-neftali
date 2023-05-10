@@ -10,8 +10,17 @@
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/miw-upm/iwvg-devops?color=informational)
 
 ### Estado del código
-
+>sonar - Quality Gate Status
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=nefkon8002_iwvg-devops-ramirez-neftali&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=nefkon8002_iwvg-devops-ramirez-neftali)
+>develop
+[![DevOpsCI](https://github.com/nefkon8002/iwvg-devops-ramirez-neftali/actions/workflows/test-sonar.yml/badge.svg?branch=develop)](https://github.com/nefkon8002/iwvg-devops-ramirez-neftali/actions/workflows/test-sonar.yml)
+>master
+[![DevOpsCI](https://github.com/nefkon8002/iwvg-devops-ramirez-neftali/actions/workflows/test-sonar.yml/badge.svg?branch=master)](https://github.com/nefkon8002/iwvg-devops-ramirez-neftali/actions/workflows/test-sonar.yml)
+>sonar - Maintainability
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=nefkon8002_iwvg-devops-ramirez-neftali&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=nefkon8002_iwvg-devops-ramirez-neftali)
+>Heroku deploy
+[![CD - Heroku](https://github.com/nefkon8002/iwvg-devops-ramirez-neftali/actions/workflows/deploy-heroku.yml/badge.svg)](https://github.com/nefkon8002/iwvg-devops-ramirez-neftali/actions/workflows/deploy-heroku.yml)
+[![CD - Heroku](https://github.com/nefkon8002/iwvg-devops-ramirez-neftali/actions/workflows/deploy-heroku.yml/badge.svg?event=status)](https://github.com/nefkon8002/iwvg-devops-ramirez-neftali/actions/workflows/deploy-heroku.yml)
 
 [![DevOps](https://github.com/miw-upm/iwvg-devops/actions/workflows/test-sonar.yml/badge.svg)](https://github.com/miw-upm/iwvg-devops/actions/workflows/test-sonar.yml)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=es.upm.miw%3Aiwvg-devops&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=es.upm.miw%3Aiwvg-devops)
