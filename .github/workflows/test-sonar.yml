@@ -16,7 +16,7 @@ jobs:
         run: mvn -B verify # -B: --batch-mode
       - name: Sonar
         if: success() # always() failure() success()
-        run: > ## se modifica la configuracion de sonar 
+        run: > ## se modifica la configuracion de sonar con mi user 
           mvn -B verify -DskipTests sonar:sonar
           -Dsonar.projectKey=nefkon8002_iwvg-devops-ramirez-neftali
           -Dsonar.organization=plusnetwork
